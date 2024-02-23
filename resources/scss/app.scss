@@ -1,2 +1,44 @@
 @import "~bootstrap/scss/bootstrap";
 
+header{
+   .box-header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo-header{
+        width: 70px;
+        height: 70px;
+        img{
+            width: 100%;
+        }
+    }
+    .item{
+        font-size: bold;
+    }
+    .input-header{
+        border-bottom: 4px solid #0C7CEC;
+    }
+   }
+   .bottom-header{
+    margin-top: 20px;
+    background-image: url("../img/jumbotron.jpg");
+    height: 500px;
+    object-fit: cover;
+    background-position: top;
+    div{
+        height: 100%;
+        position: relative;
+        .blu-button{
+            color: white;
+            background-color: #0C7CEC;
+            text-align: center;
+            border: 1px solid #0C7CEC;
+            position: absolute;
+            bottom: -15px;
+    
+        }
+    }
+        
+   }
+}

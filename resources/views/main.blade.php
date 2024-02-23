@@ -14,7 +14,7 @@
                         </div>
                     </div>
                 @endforeach
-                <div class=" d-flex justify-content-center pt-4 box-button">
+                <div class=" d-flex justify-content-center pb-4  pt-4 box-button">
                     <button class="blu-button">LOAD MORE </button>
                 </div>
             </div>

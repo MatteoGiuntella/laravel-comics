@@ -17,6 +17,7 @@ Route::get('/', function () {
     
             $comics = config('comics') ;
             // dd($comics);
+            return view('main', compact('comics'));
     /*
         compact: crea un array associativo le cui chiavi sono le stringhe
                  che mettiamo tra le parentesi, mentre i valori di tali
@@ -39,7 +40,7 @@ Route::get('/', function () {
     */
     // dd(compact('firstName', 'lastName'));
 
-    return view('welcome');
+    // return view('welcome');
     // return view('welcome', compact('firstName', 'lastName'));
 });
 

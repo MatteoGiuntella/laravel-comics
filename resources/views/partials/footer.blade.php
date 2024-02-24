@@ -48,16 +48,16 @@
     </div>
     <div class="bg-main-footer">
         <div class=" container d-flex justify-content-between ">
-            <div class=" main-footer-left">
+            <div class=" main-footer-left ">
                 <div>
-                    <div class=" d-flex">
+                    <div class=" d-flex pt-5">
                         @foreach ($linksFooter as $key=>$list)
                             <ul>
-                                <h4>
+                                <h4 class=" text-white ">
                                     {{$key}}
                                 </h4>
                                 @foreach($list as $elem)
-                                <li>
+                                <li class=" text-secondary  list-unstyled ">
                                 {{$elem}}
                                 </li>
                                 @endforeach
@@ -67,9 +67,7 @@
                 </div>
             </div>
             <div class=" main-footer-right">
-                <div>
-                    <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
-                </div>
+           
             </div>
 
         </div>

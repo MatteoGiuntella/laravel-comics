@@ -89,5 +89,15 @@ footer{
             }
         }
     }
-    
-}
+    .bg-main-footer{
+        background-image: url("../img/footer-bg.jpg");
+    }
+    .main-footer-right{
+        background-image: url("../img/dc-logo-bg.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 400px;
+    }
+};

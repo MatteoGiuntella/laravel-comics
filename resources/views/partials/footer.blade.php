@@ -73,5 +73,26 @@
         </div>
 
     </div>
+    <div class="bg-footer-bottom">
+        <div class=" container  d-flex justify-content-between p-3">
+            <div class=" footer-bottom-right">
+                <button class="button-footer">
+                    SIGN-UP NOW
+                </button>
+            </div>
+            <div class=" footer-bottom-left d-flex ">
+                <span class=" p-2">
+                    <h5 class="follow-us">FOLLOW US</h5>
+                </span>
+                @foreach ($socialFooter as $social)
+                <span class=" p-2">
+                    <img src="{{ Vite::asset('resources/img/'.$social) }}" alt="">
+                </span>
+                @endforeach
+                
+            </div>
+
+        </div>
+    </div>
 
 </footer>

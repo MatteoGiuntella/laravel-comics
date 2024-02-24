@@ -72,5 +72,22 @@ main{
 footer{
     .box-footer-top{
         background-color: #0C7CEC;
+        div{
+            .item-box{
+                div{
+                    width: 100px;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+                div{
+                    p{
+                        color: white;
+                    }
+                }
+            }
+        }
     }
+    
 }

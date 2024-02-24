@@ -50,7 +50,7 @@
         <div class=" container d-flex justify-content-between ">
             <div class=" main-footer-left">
                 <div>
-                    <div>
+                    <div class=" d-flex">
                         @foreach ($linksFooter as $key=>$list)
                             <ul>
                                 <h4>
@@ -64,12 +64,12 @@
                             </ul>
                         @endforeach
                     </div>
-                    <div></div>
-                    <div></div>
                 </div>
             </div>
             <div class=" main-footer-right">
-
+                <div>
+                    <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
+                </div>
             </div>
 
         </div>
